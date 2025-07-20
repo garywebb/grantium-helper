@@ -1,0 +1,25 @@
+{
+  "name": "grantium-helper",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "npm run compile && electron .",
+    "compile": "tsc && copyfiles -f build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garywebb/grantium-helper.git"
+  },
+  "author": "Gary Webb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garywebb/grantium-helper/issues"
+  },
+  "homepage": "https://github.com/garywebb/grantium-helper#readme",
+  "description": "",
+  "dependencies": {
+    "electron": "^37.2.3",
+    "typescript": "^5.8.3"
+  }
+}
